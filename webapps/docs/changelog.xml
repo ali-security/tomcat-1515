@@ -108,6 +108,10 @@
   <subsection name="Catalina">
     <changelog>
       <fix>
+        Fix handling of <code>QSA</code> and <code>QSD</code> flags in
+        <code>RewriteValve</code>. (markt)
+      </fix>
+      <fix>
         <bug>67667</bug>: <code>TLSCertificateReloadListener</code> prints
         unreadable rendering of <code>X509Certificate#getNotAfter()</code>.
         (michaelo)
